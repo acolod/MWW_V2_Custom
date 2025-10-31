@@ -1,0 +1,19 @@
+{
+  "type": "micro",
+  "wake_word": "hey_kimi",
+  "author": "alex",
+  "trained_languages": ["en"],
+  "version": 2,
+  "model": "/config/esphome/MicroWakeWord/hey_kimi/hey_kimi_mww.tflite",
+  "micro": {
+    "probability_cutoff": 0.60,
+    "feature_step_size": 10,
+    "sliding_window_size": 10,
+    "tensor_arena_size": 42000,
+    "minimum_esphome_version": "2024.7.0",
+    "sample_rate_hz": 16000,
+    "frame_length": 512,
+    "hop_length": 160,
+    "mel_bins": 64
+  }
+}
